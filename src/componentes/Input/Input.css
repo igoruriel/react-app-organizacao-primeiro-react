@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.label {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #212121;
+}
+
+.input {
+    background: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 1rem;
+
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    border: none;
+    
+    outline: none;
+    
+    padding: 24px 24px;
+}
